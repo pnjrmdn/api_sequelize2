@@ -1,1 +1,41 @@
+--- set up api ---
+
+#install mesin express
 npm install -g express-generator
+
+#cek mesin express sudah terinstall
+express
+
+#membuat struktur direktori 
+#dan generate file untuk API
+express --no-view
+
+#untuk menginstall
+#dependencies package.json
+npm install
+
+--- nodemon ---
+
+#instalk nodemon
+#untuk menggantikan
+#npm start agar auto refresh
+npm install -g nodemon
+
+#menjalan nodemon
+#ke direktori folder apps
+nodemon bin/www
+
+--- fr seqeulize ---
+#install sequelize dengan command cli
+npm install --save sequelize sequelize-cli
+
+#cek command fr sequelize
+npx sequelize
+
+#membuat file model, migration, seeders
+npx sequelize init 
+
+#
+
+
+---  ---
